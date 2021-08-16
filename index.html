@@ -1,18 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="src/style.css"  />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-    <h1>Hello World</h1>
+      <div class="weather-app">
+        <h1>New York</h1>
+        <ul>
+          <li>Monday 7:00</li>
+          <li>mostly cloudy</li>
+        </ul>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              alt="mostly cloudy"
+            />
+            12 °C | °F
+          </div>
+          <div class="col-md-6">
+            <ul>
+              <li>Precipitation: 1%</li>
+              <li>Humidity: 67%</li>
+              <li>Wind: 11 km/h</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <small>
+        <a href="https://github.com/ekatfurniss/vanilla-weather-app"
+          >Open-source code</a
+        >
+        by Emma Fürniss
+      </small>
     </div>
-    <a href="" class="btn btn-primary">Click me</a>
     <script src="src/app.js"></script>
-</body>
+  </body>
 </html>
