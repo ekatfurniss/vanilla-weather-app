@@ -18,32 +18,33 @@
       <div class="weather-app">
         <h1>New York</h1>
         <ul>
-          <li>Monday 7:00</li>
-          <li>mostly cloudy</li>
+          <li class="subheader">Monday 7:00</li>
+          <li class="subheader">Mostly cloudy</li>
         </ul>
         <div class="row">
           <div class="col-md-6">
             <img
+              class="weather-img"
               src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
               alt="mostly cloudy"
             />
-            12 °C | °F
+            <span class="number">12</span> <span class="unit">°C | °F</span>
           </div>
           <div class="col-md-6">
             <ul>
-              <li>Precipitation: 1%</li>
-              <li>Humidity: 67%</li>
-              <li>Wind: 11 km/h</li>
+              <li class="details">Precipitation: 1%</li>
+              <li class="details">Humidity: 67%</li>
+              <li class="details">Wind: 11 km/h</li>
             </ul>
           </div>
         </div>
+        <small class="source">
+          <a href="https://github.com/ekatfurniss/vanilla-weather-app"
+            >Open-source code</a
+          >
+          by Emma Fürniss
+        </small>
       </div>
-      <small>
-        <a href="https://github.com/ekatfurniss/vanilla-weather-app"
-          >Open-source code</a
-        >
-        by Emma Fürniss
-      </small>
     </div>
     <script src="src/app.js"></script>
   </body>
