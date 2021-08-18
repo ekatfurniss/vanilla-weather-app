@@ -72,11 +72,6 @@ li:first-letter {
   text-decoration: none;
 }
 
-.unit .active {
-  color: #202124;
-  cursor: default;
-}
-
 .source {
   padding-top: 10px;
 }
