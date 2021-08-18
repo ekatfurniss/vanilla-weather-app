@@ -36,7 +36,7 @@ li:first-letter {
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
-  margin-left: -100px;
+  margin-left: -80px;
 }
 .subheader {
   color: #70757a;
@@ -51,15 +51,15 @@ li:first-letter {
   margin-top: -60px;
 }
 .weather-img {
-  vertical-align: top;
+  margin-top: -20px;
 }
 .number {
   color: #202124;
   display: inline;
   font-size: 48px;
   font-weight: 400;
-  height: auto;
   line-height: 60px;
+  margin-left: -20px;
 }
 .unit {
   color: #202124;
