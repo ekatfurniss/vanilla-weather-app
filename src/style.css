@@ -75,3 +75,19 @@ li:first-letter {
 .source {
   padding-top: 10px;
 }
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.forecast-date {
+  font-size: 16px;
+  color: #70757a;
+}
+.forecast-temperature {
+  font-size: 13px;
+  color: #70757a;
+}
+.forecast-temperature-min {
+  opacity: 0.6;
+}
